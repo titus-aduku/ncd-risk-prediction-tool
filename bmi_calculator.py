@@ -1,0 +1,6 @@
+weight_kg_str = input("Enter your weight here: ")
+weight_kg = float(weight_kg_str)
+height_m_str = input("Enter your height here: ")
+height_m = float(height_m_str)
+bmi = weight_kg / (height_m * height_m)
+print(f"Your BMI is: {bmi}")
